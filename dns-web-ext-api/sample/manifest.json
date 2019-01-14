@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "dns-web-ext-api-sample",
+    "version": "1.0",
+    "description": "",
+    "permissions": [
+        "dns"
+    ],
+    "background": {
+        "scripts": ["dns.js", "ext.js"]
+    }
+}   
